@@ -1,0 +1,25 @@
+{
+  "name": "jollymax/sdk",
+  "description": "",
+  "type": "library",
+  "keywords": [
+    "jollymax",
+    "sdk"
+  ],
+  "homepage": "https://github.com/sebastianbergmann/dbunit/",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "yuanwb_sh"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "guzzlehttp/guzzle":">=6.3"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  }
+}
