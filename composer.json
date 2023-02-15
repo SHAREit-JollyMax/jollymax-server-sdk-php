@@ -6,7 +6,7 @@
     "jollymax",
     "sdk"
   ],
-  "homepage": "https://github.com/sebastianbergmann/dbunit/",
+  "homepage": "https://github.com/SHAREit-JollyMax/jollymax-server-sdk-php",
   "license": "BSD-3-Clause",
   "authors": [
     {
@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": "^7.1",
-    "guzzlehttp/guzzle":">=6.3"
+    "guzzlehttp/guzzle": ">=6.3"
   },
   "autoload": {
     "classmap": [
