@@ -14,7 +14,8 @@ $merchantConfig->appId = "your merchantAppId";
 $merchantConfig->merchantPrivateKey = "your private key";
 $merchantConfig->jollymaxPublicKey = "jollymax public key";
     
-//设置参数
+//设置参数，默认调用产线地址，
+//如测试环境联调，需传入环境标识 eg: JollymaxClient::setConfig($merchantConfig, Env::$uat);
 JollymaxClient::setConfig($merchantConfig);
 ```
 
